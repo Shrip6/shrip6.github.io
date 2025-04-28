@@ -955,35 +955,7 @@ form textarea {
 
 
 
-/* Default styles for larger screens (desktop/tablets) */
-body {
-    font-size: 18px;
-}
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
 
-/* Mobile specific styles */
-@media screen and (max-width: 768px) {
-    body {
-        font-size: 16px;
-    }
-
-    .container {
-        width: 95%;
-        padding: 10px;
-    }
-    
-    header {
-        font-size: 20px;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-}
 
 
