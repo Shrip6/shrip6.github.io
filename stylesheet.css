@@ -953,75 +953,80 @@ form textarea {
   border-radius: 0.5rem;
 }
 
-@media (max-width: 768px) {
-  .header nav .nav-links {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
 
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
   .home {
     flex-direction: column;
-    padding: 30px 5%;
     text-align: center;
+    padding: 20px 5%;
   }
 
-  .home-content {
-    align-items: center;
-    justify-content: center;
+  .profile-container {
+    position: static;
+    margin: 20px auto;
   }
 
-  .home .profile-container img {
-    width: 150px;
-    height: 150px;
+  .glow-circle {
+    width: 200px;
+    height: 200px;
+  }
+
+  .home-content h1 {
+    font-size: 35px;
+  }
+
+  .home-content h3,
+  .home-content p {
+    font-size: 18px;
   }
 
   .about {
     flex-direction: column;
-    padding: 20px;
+    margin: 30px 20px;
+    gap: 2rem;
   }
 
   .about-img img {
-    width: 180px;
+    width: 200px;
+    height: 200px;
   }
 
-  .services-list,
-  .portfolio-content {
+  .services-list {
+    grid-template-columns: 1fr;
+    margin: 20px;
+  }
+
+  .container1 {
+    padding: 20px;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .radial-bars {
     flex-direction: column;
     align-items: center;
   }
 
-  .service-box,
-  .row {
-    width: 90%;
-    margin: 15px 0;
-  }
-
-  .skills-section,
-  .container1 {
-    padding: 0 10px;
-  }
-
   .contact {
-    flex-direction: column;
-    gap: 20px;
+    grid-template-columns: 1fr;
     padding: 20px;
   }
 
-  .contact-form form {
+  .contact-text h2 {
+    font-size: 45px;
+  }
+
+  .contact-form form input,
+  .contact-form form textarea {
     width: 100%;
   }
-
-  .navbar a {
-    display: block;
-    padding: 10px;
-  }
 }
-
-
-
-
-
-
 
 
