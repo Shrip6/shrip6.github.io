@@ -953,6 +953,72 @@ form textarea {
   border-radius: 0.5rem;
 }
 
+@media (max-width: 768px) {
+  .header nav .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .home {
+    flex-direction: column;
+    padding: 30px 5%;
+    text-align: center;
+  }
+
+  .home-content {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home .profile-container img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .about {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .about-img img {
+    width: 180px;
+  }
+
+  .services-list,
+  .portfolio-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-box,
+  .row {
+    width: 90%;
+    margin: 15px 0;
+  }
+
+  .skills-section,
+  .container1 {
+    padding: 0 10px;
+  }
+
+  .contact {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .contact-form form {
+    width: 100%;
+  }
+
+  .navbar a {
+    display: block;
+    padding: 10px;
+  }
+}
+
+
 
 
 
