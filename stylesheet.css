@@ -528,8 +528,12 @@ body {
   width: 65%;
 }
 
-.progress-line.java span {
+.progress-line.flask span {
   width: 60%;
+}
+
+.progress-line.java span {
+  width: 50%;
 }
 
 .progress-line.dsa span {
@@ -566,8 +570,12 @@ body {
   content: "65%";
 }
 
-.progress-line.java span::after {
+.progress-line.flask span::after {
   content: "60%";
+}
+
+.progress-line.java span::after {
+  content: "50%";
 }
 
 .progress-line.dsa span::after {
