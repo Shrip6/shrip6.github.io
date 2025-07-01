@@ -528,10 +528,6 @@ body {
   width: 65%;
 }
 
-.progress-line.flask span {
-  width: 60%;
-}
-
 .progress-line.java span {
   width: 50%;
 }
@@ -568,10 +564,6 @@ body {
 
 .progress-line.python span::after {
   content: "65%";
-}
-
-.progress-line.flask span::after {
-  content: "60%";
 }
 
 .progress-line.java span::after {
