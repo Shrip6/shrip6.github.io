@@ -528,7 +528,7 @@ body {
   width: 65%;
 }
 
-.progress-line.aws span {
+.progress-line.AWS span {
   width: 60%;
 }
 
@@ -566,7 +566,7 @@ body {
   content: "65%";
 }
 
-.progress-line.aws span::after {
+.progress-line.AWS span::after {
   content: "60%";
 }
 
@@ -952,6 +952,7 @@ form textarea {
   padding: 10px;
   border-radius: 0.5rem;
 }
+
 
 
 
