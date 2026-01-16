@@ -567,11 +567,11 @@ body {
 }
 
 .progress-line.aws span::after {
-  content: "50%";
+  content: "60%";
 }
 
 .progress-line.linux span::after {
-  content: "80%";
+  content: "70%";
 }
 
 .progress-line.github span::after {
@@ -952,6 +952,7 @@ form textarea {
   padding: 10px;
   border-radius: 0.5rem;
 }
+
 
 
 
