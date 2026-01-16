@@ -566,11 +566,11 @@ body {
   content: "65%";
 }
 
-.progress-line.java span::after {
+.progress-line.aws span::after {
   content: "50%";
 }
 
-.progress-line.dsa span::after {
+.progress-line.linux span::after {
   content: "80%";
 }
 
@@ -952,6 +952,7 @@ form textarea {
   padding: 10px;
   border-radius: 0.5rem;
 }
+
 
 
 
