@@ -528,12 +528,12 @@ body {
   width: 65%;
 }
 
-.progress-line.java span {
-  width: 50%;
+.progress-line.aws span {
+  width: 60%;
 }
 
-.progress-line.dsa span {
-  width: 80%;
+.progress-line.linux span {
+  width: 70%;
 }
 
 .progress-line.github span {
@@ -952,6 +952,7 @@ form textarea {
   padding: 10px;
   border-radius: 0.5rem;
 }
+
 
 
 
