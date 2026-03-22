@@ -533,7 +533,7 @@ body {
 }
 
 .progress-line.linux span {
-  width: 70%;
+  width: 75%;
 }
 
 .progress-line.github span {
@@ -571,7 +571,7 @@ body {
 }
 
 .progress-line.linux span::after {
-  content: "70%";
+  content: "75%";
 }
 
 .progress-line.github span::after {
